@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Func-Dev-20 (Functional Account)/HBaseKit'
+  s.homepage         = 'https://github.com/hudada/HBaseKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Func-Dev-20 (Functional Account)' => 'func-dev-20@signify.com' }
-  s.source           = { :git => 'https://github.com/Func-Dev-20 (Functional Account)/HBaseKit.git', :tag => s.version.to_s }
+  s.author           = { 'hudada' => 'hudada' }
+  s.source           = { :git => 'https://github.com/hudada/HBaseKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'

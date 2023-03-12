@@ -1,5 +1,5 @@
 import XCTest
-import HBaseKit
+//import HBaseKit
 
 class Tests: XCTestCase {
     
