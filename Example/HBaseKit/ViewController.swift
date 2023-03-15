@@ -28,7 +28,8 @@ class ViewController: UIViewController {
     
     @objc func tap() {
         print("tap")
-        
+        let alertVC = AlertController(title: "title", message: "mes", preferredStyle: .actionSheet)
+        alertVC.alert()
     }
 
 }
