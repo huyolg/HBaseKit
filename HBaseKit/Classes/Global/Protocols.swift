@@ -86,8 +86,8 @@ public protocol IGenericViewModel: IDestroyable, Equatable {
 public protocol IViewModel: IGenericViewModel {
     var rxViewState: BehaviorRelay<ViewState> { get }
     var rxShowLocalActivityIndicatorHud: BehaviorRelay<Bool> { get }
-//    var rxIndicator: ActivityIndicator { get }
-//    var navigationService: NavigationService { get }
+    var rxIndicator: ActivityIndicator { get }
+    var navigationService: NavigationService { get }
 }
 
 public protocol IListViewModel: IViewModel {
